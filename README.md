@@ -72,14 +72,66 @@ B) private repositories
      -> payment plans are required for organizations.
      -> does not attract contributors to the open-source portofolio
      
-    
-
-
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+a)-> commits are timestamp that keeps record of the time changes are made to the files. 
+  commits asists in tracking changes by:
+  1. version control - each commit has a distinct version for future tracking
+  2. recovery - you can correct a fault arising from the previous commit.
+  3. shows why changes were made to the piece of code.
+b) steps for crrating or executing commits.
+   1. set up git on your machine. download if not already installed
+   2. in your terminal or cmd or powershell, type the following comands
+   3. git config --global user.name "choose preferably your github username"
+   4. git config --global user.email "github email"
+   5. create a repository in github with the processed as listed in the previous question.
+   6. login to your github account
+   7. click on new repository
+   8. choose whether to make it public or private
+   9. choose whether to include the readme.md file
+   10. create repository
+   11. clone existing repository by: git clone <url to be cloned>
+   12. enter the repository directory
+   13. initialize git on your project directory (confirm you are in the project directory) by using: git init
+   14. use: git add. to add files to the repository the . represents all files
+   15. commit changes by running: git commit -m "coment to show what changed"
+   16. push first commit to github by: git branch -m main then: git push -u origin main.
+   17. confirm the changes on you github account
+   
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+A) Branching
+1. branching refers to using an independent line of development that does not      corrupt the main code. can be used to miantain existinfg code, or add           features before adding it to the main code.
+2. steps used to create branches
+   -> run: git branch <branch name>
+   -> run: git checkout <branch name>    to switch to the created branch
+   -> run: git branch    to check all available branches
+   -> run: git branch -d <branch name>        to delete a branch
+3 merging branches
+  this is the process that is ued to intergrate changes from one branch to        another.
+4.  steps for merging
+   -> run: git check out main   <to switch to main branch>
+   -> run: git merge <other branch name> to merge with the named branch
+   -> run: git add.
+    run: git commit -m after resolving conflicts if they arise
+
+branching is important because it gives a platform for developers to update code ina safe manner withoud damaging existing code by adding feature, fixing bugs, etc
+   
+   
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+1. role of pull requests in code review and collaboration
+   -> multiple developers can contribute on a common project in an organized manner
+   -> pull requests prevent accidental modification of code in the project
+   -> code review can be carried out to view changes and also give feedback according to the chnages made
+   -> pull requests discussions and history keep records of why changes are made.
+2. steps in creating and merging a pull request.
+   -> create a branch for a cloned repo if not your own repo
+   -> make changes to files and add all files to the branch by running: git add .
+   -> commit changes by running : git commit -m "comment with reasons for changing"
+   -> push brancj to github by rinning: git push origin <branch name>
+   -> 
+   -> 
+
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
