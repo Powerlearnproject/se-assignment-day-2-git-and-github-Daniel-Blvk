@@ -51,7 +51,28 @@ contents of a well documented readme file
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 a). Pubic repositories
-
+    public repositories are se to tbe open to all people to copy, clone or fork      but only authorized users can push changes to the main code.
+    1. advantages
+       -> massive collaboration scope where many people can assist in project creation
+       -> easy to find solutions to problems being encountered in the project
+       -> developers get to market themselves by showcasing their work during collaboration
+       -> github provides unlimited repositories for free.
+   2. disadvantages
+      -> insecurity since the repo details can be viewed and the code is not protected
+      -> unwanted contributions take place hence degrading quality code
+      -> hard to enforce usage restrictons.
+B) private repositories
+   in private repositories, only authorized personel can access the codes in the repo
+   1. advatages
+      -> controlled access since not everyone can view code or fork or clone a repository
+      -> collaboration is more focused since the collabrators work in an undisturbes environment.
+      -> many of the business logic, codes and other important documentstion remain confidential to the collaborative team.
+  2. disadvantages
+     -> external collaboration is limited to authorized developers only
+     -> payment plans are required for organizations.
+     -> does not attract contributors to the open-source portofolio
+     
+    
 
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
